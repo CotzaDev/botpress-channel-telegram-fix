@@ -9,10 +9,6 @@ const Promise = require('bluebird');
 
 import Telegram from './telegram';
 
-Promise.config({
-  cancellation: true
-});
-
 let telegram = null;
 const outgoingPending = outgoing.pending;
 
